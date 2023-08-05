@@ -1,0 +1,23 @@
+//Write a C program to enter two numbers and find their sum.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int a,b;
+    cout<<"Enter two numbers:";
+    cin>>a>>b;
+    cout<<"The sum of given numbers is:"<<a+b<<endl;
+    return 0;
+}
+
+/*
+
+Purohit Akruti K.
+220130318033
+Enter two numbers:89 79
+The sum of given numbers is:168
+
+*/
