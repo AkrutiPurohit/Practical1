@@ -5,37 +5,37 @@ using namespace std;
 
 class convert
 {
-    private:
-        float temp;
-    public:
-        void gd()
-        {
-            cout<<"Enter tempurature in fahrenheit:";
-            cin>>temp;
-        }
-        
-        float answer()
-        {
-            float c;
-            c=(temp - 32) * 5/9;
-            return c;
-        }
+	private:
+    	float temp;
+	public:
+    	void gd()
+    	{
+        	cout<<"Enter temperature in fahrenheit:";
+        	cin>>temp;
+    	}
+   	 
+    	float answer()
+    	{
+        	float c;
+        	c=(temp - 32) * 5/9;
+        	return c;
+    	}
 };
 
 int main()
 {
-    cout<<"Purohit Akruti K."<<endl;
-    cout<<"220130318033"<<endl;
-    convert c;
-    c.gd();
-    cout<<"The trmpurature in celsius:"<<c.answer()<<endl;
+	cout<<"Purohit Akruti K."<<endl;
+	cout<<"220130318033"<<endl;
+	convert c;
+	c.gd();
+	cout<<"The temperature in celsius:"<<c.answer()<<endl;
 }
 
 /*
 
 Output::
 
-Enter tempurature in fahrenheit:34
-The trmpurature in celsius:1.11111
+Enter temperature in fahrenheit:34
+The temperature in celsius:1.11111
 
 */
