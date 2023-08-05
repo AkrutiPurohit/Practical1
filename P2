@@ -1,0 +1,41 @@
+//WAP to convert Fahrenheit into Celsius using class.
+
+#include<iostream>
+using namespace std;
+
+class convert
+{
+    private:
+        float temp;
+    public:
+        void gd()
+        {
+            cout<<"Enter tempurature in fahrenheit:";
+            cin>>temp;
+        }
+        
+        float answer()
+        {
+            float c;
+            c=(temp - 32) * 5/9;
+            return c;
+        }
+};
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    convert c;
+    c.gd();
+    cout<<"The trmpurature in celsius:"<<c.answer()<<endl;
+}
+
+/*
+
+Output::
+
+Enter tempurature in fahrenheit:34
+The trmpurature in celsius:1.11111
+
+*/
