@@ -1,0 +1,28 @@
+//Write C++ Program to For Fibonacci Number using function.
+
+#include<iostream>
+
+using namespace std;
+
+void fib(int n)
+{
+    int a=0,b=1,i,sum=0;
+    cout<<a<<" "<<b<<" ";
+    for(i=2;i<n;i++)
+    {
+        sum=a+b;
+        cout<<sum<<" ";
+        a=b;
+        b=sum;
+    }
+}
+int main()
+{
+    cout<<"Purohi Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int num;
+    cout<<"Enter number of terms:";
+    cin>>num;
+    
+    fib(num);
+}
