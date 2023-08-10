@@ -1,0 +1,18 @@
+//Write a C program to enter two numbers and perform all arithmetic operations.
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int a,b;
+    cout<<"Enter two numbers:";
+    cin>>a>>b;
+    cout<<"The sum of given numbers is:"<<a+b<<endl;
+    cout<<"The substraction of given numbers is:"<<a-b<<endl;
+    cout<<"The multiplication of given numbers is:"<<a*b<<endl;
+    cout<<"The division of given numbers is:"<<(float)a/b<<endl;
+    cout<<"The modulo of given numbers is:"<<a%b<<endl;
+    return 0;
+}
