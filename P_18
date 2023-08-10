@@ -1,0 +1,24 @@
+// Write C++ Program to Calculate the Power of a Number using function
+
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int power(int n,int p)
+{
+    return pow(n,p);
+}
+int main()
+{
+    cout<<"Purohi Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int num,p,ans;
+    cout<<"Enter the number:";
+    cin>>num;
+    cout<<"Enter the power:";
+    cin>>p;
+    ans=power(num,p);
+    cout<<"The answer:"<<ans<<endl;
+    return 0;
+}
