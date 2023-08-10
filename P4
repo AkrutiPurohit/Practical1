@@ -1,0 +1,16 @@
+//Write C++ program to print name.
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    string name;
+    cout<<"Enter your name:";
+    cin>>name;
+    cout<<"Your name is:"<<name<<endl;
+    return 0;
+}
