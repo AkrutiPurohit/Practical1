@@ -1,0 +1,37 @@
+//Write C++ Program to Check Whether a Number is a Palindrome or Not using function.
+
+#include<iostream>
+
+using namespace std;
+
+void palindrom(int n)
+{
+    int n1;
+    n1=n;
+    int rem=0;
+    while(n!=0)
+    {
+        rem = (rem * 10) + (n % 10);
+        n=n/10;
+    }
+    
+    if(rem==n1)
+    {
+        cout<<"Given number is palindrom";
+    }
+    else
+    {
+        cout<<"Given number is not palindrom";
+    }
+}
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int num;
+    cout<<"Enter the number:";
+    cin>>num;
+    
+    palindrom(num);
+    
+}
