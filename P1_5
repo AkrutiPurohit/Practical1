@@ -1,0 +1,35 @@
+//Write a C program to input elements in array and print all negative elements.
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int s;
+    cout<<"Enter the size of array:";
+    cin>>s;
+    int num[s],i;
+    cout<<"Enter "<<s<<" elements in array:"<<endl;
+    for(i=0;i<s;i++)
+    {
+        cin>>num[i];
+    }
+    cout<<"The array:";
+    for(i=0;i<s;i++)
+    {
+        cout<<num[i]<<" ";
+    }
+    cout<<endl;
+    cout<<"The negative elements of array:";
+    for(i=0;i<s;i++)
+    {
+        if(num[i]<0)
+        {
+            cout<<num[i]<<" ";
+        }
+    }
+    return 0;
+}
