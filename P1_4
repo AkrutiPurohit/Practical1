@@ -1,0 +1,18 @@
+//Write a C program to enter radius of a circle and find its diameter,circumference and area.
+
+#include<iostream>
+#define pi 3.14
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int r;
+    cout<<"Enter the radius of circle:";
+    cin>>r;
+    cout<<"The diameter of this circle is:"<<2*r<<endl;
+    cout<<"The circumference of this circle is:"<<2*pi*r<<endl;
+    cout<<"the area of this circle is:"<<pi*r*r<<endl;
+    return 0;
+}
