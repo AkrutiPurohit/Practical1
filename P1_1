@@ -12,12 +12,3 @@ int main()
     cout<<"The sum of given numbers is:"<<a+b<<endl;
     return 0;
 }
-
-/*
-
-Purohit Akruti K.
-220130318033
-Enter two numbers:89 79
-The sum of given numbers is:168
-
-*/
