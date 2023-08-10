@@ -1,0 +1,19 @@
+//Write a C program to enter length and breadth of a rectangle and find its perimeter & area.
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int l,b;
+    cout<<"Enter length of rectangle:";
+    cin>>l;
+    cout<<"Enter breadth of the rectangle:";
+    cin>>b;
+    cout<<"The perimeter of this rectangle will be:"<<2*(l+b)<<endl;
+    cout<<"The area of this rectangle will be:"<<l*b<<endl;
+    return 0;
+}
