@@ -1,0 +1,30 @@
+//Write C++ program to find simple interest
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    float si,p,t,r;
+    
+    cout<<"Enter the principal amount:";
+    cin>>p;
+    
+    cout<<"Enter the time period in years:";
+    cin>>t;
+    
+    cout<<"Enter the rate of intrest in percentage:";
+    cin>>r;
+    
+    cout<<"Principal amount:"<<p<<endl;
+    cout<<"Time period:"<<t<<endl;
+    cout<<"Rate of intrest:"<<r<<endl;
+    
+    si=p*t*r/100;
+    
+    cout<<"The simpal intrest is:"<<si<<endl;
+    return 0;
+}
