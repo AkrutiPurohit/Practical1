@@ -1,0 +1,25 @@
+//Write C++ program to swap two numbers.
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int n1,n2,temp;
+    cout<<"Enter two numbers:";
+    cin>>n1>>n2;
+    
+    cout<<"Numbers before swaping:"<<endl;
+    cout<<"Number 1:"<<n1<<endl<<"Number 2:"<<n2<<endl;
+    
+    temp=n1;
+    n1=n2;
+    n2=temp;
+    
+    cout<<"Numbers after swaping:"<<endl;
+    cout<<"Number 1:"<<n1<<endl<<"Number 2:"<<n2<<endl;
+    return 0;
+}
