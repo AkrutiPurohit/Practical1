@@ -1,0 +1,25 @@
+//Write C++ Program to Check Even or Odd Integers
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    
+    int n;
+    cout<<"Enter the number:";
+    cin>>n;
+    
+    if(n%2==0)
+    {
+        cout<<"Number is even";
+    }
+    else
+    {
+        cout<<"Number is odd";
+    }
+    return 0;
+}
