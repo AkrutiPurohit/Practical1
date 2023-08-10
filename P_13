@@ -1,0 +1,27 @@
+//Write C++ Program To Print Multiplication Table of a Number.
+
+#include<iostream>
+
+using namespace std;
+
+void add(int n)
+{
+    int sum=0,i;
+     for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    
+    cout<<"The sum of first "<<n<<" natural numbers is:"<<sum<<endl; 
+}
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int num;
+    cout<<"Enter the number:";
+    cin>>num;
+    
+    add(num);
+}
