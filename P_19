@@ -1,0 +1,54 @@
+// Write C++ Program to Make a Simple Calculator with the use of switch case.
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohi Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    
+    int n1,n2,ans;
+    float ans2;
+    char op;
+    cout<<"Enter two number:";
+    cin>>n1>>n2;
+    cout<<"Enter opretor:";
+    cin>>op;
+    
+    switch(op)
+    {
+        case '+':
+        {
+            ans=n1+n2;
+            cout<<"The sum is:"<<ans;
+            break;
+        }
+        case '-':
+        {
+            ans=n1-n2;
+            cout<<"The substraction is:"<<ans;
+            break;
+        }
+        case '*':
+        {
+            ans=n1*n2;
+            cout<<"The mauliplication is:"<<ans;
+            break;
+        }
+        case '/':
+        {
+            ans2=(float)n1/n2;
+            cout<<"The division is:"<<ans2;
+            break;
+        }
+        case '%':
+        {
+            ans=n1%n2;
+            cout<<"The modulo is:"<<ans;
+            break;
+        }
+    }
+    return 0;
+}
