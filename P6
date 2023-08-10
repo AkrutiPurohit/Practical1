@@ -1,0 +1,17 @@
+//Write C++ program to find the size of int, char, float and double data types.
+
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    
+    cout<<"The size of integer data type:"<<sizeof(int)<<endl;
+    cout<<"The size of float data type:"<<sizeof(float)<<endl;
+    cout<<"The size of character data type:"<<sizeof(char)<<endl;
+    cout<<"The size of double data type:"<<sizeof(double)<<endl;
+    return 0;
+}
