@@ -1,0 +1,36 @@
+//Write C++ Program to Check Armstrong Number using function.
+
+#include<iostream>
+#include<math.h>
+using namespace std;
+
+void arm(int n)
+{
+    int n1,rem,ans=0;
+    n1=n;
+    while(n>0)
+    {
+        rem = n%10;
+        ans = ans + pow(rem,3);
+        n=n/10;
+    }
+    
+    if(ans==n1)
+    {
+        cout<<"The entered number is armstrong number";
+    }
+    else
+    {
+        cout<<"The entered number is not armstrong number";
+    }
+}
+int main()
+{
+    cout<<"Purohi Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int num;
+    cout<<"Enter the number:";
+    cin>>num;
+    arm(num);
+    return 0;
+}
