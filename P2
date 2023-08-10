@@ -30,12 +30,3 @@ int main()
 	c.gd();
 	cout<<"The temperature in celsius:"<<c.answer()<<endl;
 }
-
-/*
-
-Output::
-
-Enter temperature in fahrenheit:34
-The temperature in celsius:1.11111
-
-*/
